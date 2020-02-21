@@ -31,9 +31,9 @@ def get_repo(github_id):
 def main():
     github_id = input('Please enter your github ID :' )
     print(get_repo(github_id))
-    
-main()
 
+if __name__ == '__main__':
+    main()    
 
 
 
