@@ -1,7 +1,6 @@
 import json
 import requests
 
-
 def get_repo(github_id):
 
     user_url = requests.get('https://api.github.com/users/{}/repos'.format(github_id)) #get access to the github ID

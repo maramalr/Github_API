@@ -17,7 +17,6 @@ class test_get_repo(unittest.TestCase):
                     ['Repo: SWW810Homeworks Number of commits: 4 '], ['Repo: Triangle567 Number of commits: 11 ']]
                     
         github_id = 'maramalr'
-
         self.assertEqual(get_repo(github_id), expected)
 
         
